@@ -29,7 +29,7 @@ http.createServer((req,res)=>{
 */
 
 //Default route to avoid cannot get
-app.get("/posts", (req, res) => {
+app.get("/", (req, res) => {
   //res.status(200).json({message:"Welcome to backend"})
   res.status(200).send(
     `<div style="background-color:aqua; color:black"> 
